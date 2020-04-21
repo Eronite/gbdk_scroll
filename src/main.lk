@@ -1,0 +1,15 @@
+-mjwx
+-i main.ihx
+-b _CODE = 0x0200
+-b _DATA = 0xc0a0
+-k C:/Users/FDO/Desktop/test_scroll/src/gbdk/bin/../lib
+-k C:\Program Files\SDCC\bin\..\lib\gbz80
+-l gb.lib
+-l gbz80
+C:/Users/FDO/Desktop/test_scroll/src/gbdk/bin/../lib/crt0.rel
+BackgroundMap3.rel
+BackgroundTiles.rel
+main.rel
+Sprites.rel
+
+-e
